@@ -1,4 +1,10 @@
 import ArrowLeft from "@/svgs/ArrowLeft";
+import BagIcon from "@/svgs/BagIcon";
+import DiscordIcon from "@/svgs/DiscordIcon";
+import FacebookIcon from "@/svgs/FacebookIcon";
+import InstgramIcon from "@/svgs/InstgramIcon";
+import TiktokIcon from "@/svgs/TiktokIcon";
+import YoutubeIcon from "@/svgs/YoutubeIcon";
 import React, { Dispatch, SetStateAction } from "react";
 
 type Props = {
@@ -31,7 +37,7 @@ const StepFour = ({ setActiveStep }: Props) => {
               </h1>
               <div className='flex flex-col items-start gap-0.5'>
                 <label className='flex items-center gap-2 font-medium'>
-                  TikToK
+                  <TiktokIcon /> TikToK
                 </label>
                 <input
                   type='text'
@@ -41,7 +47,7 @@ const StepFour = ({ setActiveStep }: Props) => {
               </div>
               <div className='flex flex-col items-start gap-0.5'>
                 <label className='flex items-center gap-2 font-medium'>
-                  Facebook
+                  <FacebookIcon /> Facebook
                 </label>
                 <input
                   type='text'
@@ -51,7 +57,7 @@ const StepFour = ({ setActiveStep }: Props) => {
               </div>
               <div className='flex flex-col items-start gap-0.5'>
                 <label className='flex items-center gap-2 font-medium'>
-                  Instagram
+                  <InstgramIcon /> Instagram
                 </label>
                 <input
                   type='text'
@@ -61,7 +67,7 @@ const StepFour = ({ setActiveStep }: Props) => {
               </div>
               <div className='flex flex-col items-start gap-0.5'>
                 <label className='flex items-center gap-2 font-medium'>
-                  Discord Username
+                  <DiscordIcon /> Discord Username
                 </label>
                 <input
                   type='text'
@@ -71,7 +77,7 @@ const StepFour = ({ setActiveStep }: Props) => {
               </div>
               <div className='flex flex-col items-start gap-0.5'>
                 <label className='flex items-center gap-2 font-medium'>
-                  Favourite Youtube Video
+                  <YoutubeIcon /> Favourite Youtube Video
                 </label>
                 <input
                   type='text'
@@ -81,7 +87,7 @@ const StepFour = ({ setActiveStep }: Props) => {
               </div>
               <div className='flex flex-col items-start gap-0.5'>
                 <label className='flex items-center gap-2 font-medium'>
-                  Describe your portfolio
+                  <BagIcon /> Describe your portfolio
                 </label>
                 <textarea
                   placeholder='e.g., I have 5 years of experience in video editing....'
